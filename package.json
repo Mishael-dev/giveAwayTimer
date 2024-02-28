@@ -1,0 +1,12 @@
+{
+  "name": "count-down-timer",
+  "version": "1.0.0",
+  "description": "A giveaway countdown timer",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mishael-dev",
+  "license": "ISC"
+}
