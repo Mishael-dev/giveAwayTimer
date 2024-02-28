@@ -8,3 +8,12 @@ img{
     max-width: 100%;
     max-height: 100%;
 }
+
+body{
+    font-family: "gaming";
+}
+
+@font-face {
+    font-family: "gaming";
+    src: url("../assets/font/BruceForeverRegular-X3jd2.ttf");
+}

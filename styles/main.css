@@ -1,0 +1,127 @@
+body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  border-bottom: 1px solid rgb(226, 223, 223);
+  padding: 1rem;
+}
+
+main {
+  padding: 0 4rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid rgb(226, 223, 223);
+  padding: 1rem;
+}
+
+.product_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.product_info {
+  flex-basis: 50%;
+}
+
+.product_image {
+  flex-basis: 50%;
+}
+
+.product_info .product_headline {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.product_info .product_description {
+  font-family: system-ui;
+  font-size: 1.5rem;
+  color: gray;
+  margin-bottom: 0.5rem;
+}
+
+/* button */
+.product_info .product_cta {
+  background-color: black;
+  color: white;
+  text-decoration: none;
+
+  height: 3rem;
+  width: 7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  transition: all 0.5s;
+}
+
+.product_info .product_cta:hover {
+  background-color: red;
+  background-color: white;
+  color: black;
+}
+
+
+.countdown-box {
+  transition: all 0.5s ease;
+}
+
+.countdown-value {
+  font-size: 2rem;
+}
+
+.countdown-box .countdown-label {
+  font-size: 0.5rem;
+  color: gray;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+.author{
+  color: rgb(0, 110, 255);
+}
+@media screen and (max-width: 800px) {
+  .product_container {
+    display: block;
+  }
+  main {
+    padding: 0 1rem;
+  }
+
+  .product_info .product_headline {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  .product_info .product_description {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+  }
+  .product_info .product_cta {
+    width: 100%;
+  }
+  .countdown-value {
+    font-size: 1rem;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+    font-size: 0.8rem;
+  }
+  main {
+    margin-bottom: 4rem;
+  }
+}
+
+

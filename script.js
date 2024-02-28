@@ -1,5 +1,5 @@
 
-var countDownDate = new Date("Feb 28, 2024 00:00:00").getTime();
+var countDownDate = new Date("March 28, 2024 00:00:00").getTime();
 
 var countdownInterval = setInterval(function() {
     var now = new Date().getTime();
@@ -29,25 +29,3 @@ var countdownInterval = setInterval(function() {
 function formatTime(time) {
     return time < 10 ? "0" + time : time;
 }
-
-{/* <div>
-          <div class="countdown-box" id="days-box">
-            <div class="countdown-value" id="days">00</div>
-            <div class="countdown-label">Days</div>
-          </div>
-
-          <div class="countdown-box" id="hours-box">
-            <div class="countdown-value" id="hours">00</div>
-            <div class="countdown-label">Hours</div>
-          </div>
-
-          <div class="countdown-box" id="minutes-box">
-            <div class="countdown-value" id="minutes">00</div>
-            <div class="countdown-label">Minutes</div>
-          </div>
-
-          <div class="countdown-box" id="seconds-box">
-            <div class="countdown-value" id="seconds">00</div>
-            <div class="countdown-label">Seconds</div>
-          </div>
-        </div> */}

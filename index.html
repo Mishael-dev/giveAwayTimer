@@ -1,11 +1,57 @@
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Giveaway Count-down Timer 🤭</title>
-  <link rel="stylesheet" href="./styles/globals.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Giveaway Count-down Timer 🤭</title>
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header>Playstation 5 Giveaway 👌😎</header>
+    <main>
+      <div class="product_container">
+        <!-- product image -->
+        <div class="image_container product_image">
+          <img src="./assets/image/playstation.png" alt="" />
+        </div>
+
+        <!-- product info -->
+        <div class="product_info">
+          <h1 class="product_headline">Play Station 5 🎮</h1>
+          <p class="product_description">
+            Time is running out 🥱, think too much and it's gone 💸, click the
+            button below to have a chance to get it for free
+          </p>
+          <div class="timer">
+            <div class="countdown-box" id="days-box">
+              <div class="countdown-value" id="days">00</div>
+              <div class="countdown-label">Days</div>
+            </div>
   
-</body>
+            <div class="countdown-box" id="hours-box">
+              <div class="countdown-value" id="hours">00</div>
+              <div class="countdown-label">Hours</div>
+            </div>
+  
+            <div class="countdown-box" id="minutes-box">
+              <div class="countdown-value" id="minutes">00</div>
+              <div class="countdown-label">Minutes</div>
+            </div>
+  
+            <div class="countdown-box" id="seconds-box">
+              <div class="countdown-value" id="seconds">00</div>
+              <div class="countdown-label">Seconds</div>
+            </div>
+          </div>
+          <a href="#" class="product_cta" onclick="alert('you have been added to the wishlist 😘')">Get</a>
+        </div>
+      </div>
+    </main>
+    <footer>
+      Project by  
+      
+      <a href="http://https://www.linkedin.com/in/mishael-daap/" class="author">  @Mishael</a>
+    </footer>
+  </body>
+  <script src="./script.js"></script>
 </html>
